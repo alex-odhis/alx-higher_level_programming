@@ -1,3 +1,4 @@
 #!/usr/bin/python3
 number = 3.14159
-f"float: {number}"
+result = f"float: {number}"
+print(result)
