@@ -1,6 +1,11 @@
 #!/usr/bin/python3
 # -*- coding: utf-8 -*-
 
+"""
+Created on 27th july
+@author: alex odhiambo
+"""
+
 class Rectangle:
     """class Rectangle that defines a rectangle figure
 
