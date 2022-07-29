@@ -2,13 +2,17 @@
 
 def add_integer(a, b=98):
     """
-    Add arguments:
-    >>> add_integer(3, 4)
-    7
+    Function that adds two integers
     
-    :a: argument
-    :b: argument
-    :retun: a + b
+    Args:
+        a: first integer
+        b: second integer
+
+    Raises: 
+        TypeError: if the inputs are neither integer or float
+
+    Return:
+        sum of a and b
     """
 
     if type(a) is not int:
