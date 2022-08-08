@@ -190,5 +190,5 @@ class TestRectangle(unittest.TestCase):
         self.assertEqual(R_dict['y'], 400)
         self.assertEqual(R_dict['id'], 500)
 
-         if __name__ == "__main__":
-             unittest.main()
+if __name__ == "__main__":
+    unittest.main()

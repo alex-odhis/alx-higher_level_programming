@@ -184,5 +184,5 @@ class TestSquare(unittest.TestCase):
         self.assertEqual(S_dict['y'], 400)
         self.assertEqual(S_dict['id'], 500)
 
-        if __name__ == "__main__":
-            unittest.main()
+if __name__ == "__main__":
+    unittest.main()

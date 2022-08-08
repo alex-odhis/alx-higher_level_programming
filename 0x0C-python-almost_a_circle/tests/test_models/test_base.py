@@ -61,5 +61,5 @@ class TestSquare(unittest.TestCase):
         for func in self.setup:
             self.assertTrue(len(func[1].__doc__) >= 1)
 
-             if __name__ == "__main__":
-                 unittest.main()
+if __name__ == "__main__":
+    unittest.main()
